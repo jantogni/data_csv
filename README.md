@@ -1,13 +1,13 @@
 Dukascopy Data
 ==============
 
-### Authors:
+### Authors
 
  * Paola Arce
  * Jonathan Antognini
 
 
-### Vim commands:
+### Vim commands
     vim *.csv
     :bufdo %s/Time/Date,Time/g | update
     :bufdo %s/\ /,/g | update
